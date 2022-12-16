@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proj1/home_screen.dart';
+import 'package:proj1/users_screen.dart';
 
 import 'login_screen.dart';
 import 'messenger_screen.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MessengerScreen(),
+      home: UsersScreen(),
     );
   }
 
