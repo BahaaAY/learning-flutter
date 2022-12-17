@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:proj1/bmi_result_screen.dart';
-import 'package:proj1/bmi_screen.dart';
-import 'package:proj1/counter_screen.dart';
-import 'package:proj1/home_screen.dart';
-import 'package:proj1/users_screen.dart';
+import 'package:proj1/modules/bmi/bmi_result_screen.dart';
+import 'package:proj1/modules/bmi/bmi_screen.dart';
+import 'package:proj1/modules/counter/counter_screen.dart';
+import 'package:proj1/modules/home/home_screen.dart';
+import 'package:proj1/modules/messenger/users_screen.dart';
 
-import 'login_screen.dart';
-import 'messenger_screen.dart';
+import 'modules/login/login_screen.dart';
+import 'modules/messenger/messenger_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BmiScreen(),
+      home: LoginScreen(),
     );
   }
 
